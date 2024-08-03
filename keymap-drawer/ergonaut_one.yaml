@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - ↹
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - LSHIFT
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - Ctrl
   - Z
   - X
   - C
@@ -35,17 +35,17 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
+  - '&td'
+  - LEFT COMMAND
+  - {t: LEFT SHIFT, h: lower}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - ␣
+  - {t: RSHIFT, h: raise}
+  - BACKSPACE
   lower:
-  - {t: F1, h: Gui}
+  - ESCAPE
+  - F1
   - F2
-  - F3
   - F4
   - F5
   - F6
@@ -55,19 +55,19 @@ layers:
   - F10
   - F11
   - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - '&sea'
+  - '&win'
+  - ←
+  - ↓
+  - ↑
+  - →
   - )
   - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -80,53 +80,53 @@ layers:
   - '0'
   - Alt
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - {t: ESCAPE, h: toggle}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - \
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '-'
+  - '='
+  - '`'
+  - '['
+  - ']'
+  - '|'
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - _
+  - +
+  - '~'
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
   - Boot
@@ -136,8 +136,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - ''
   - ''
   - Boot
@@ -148,8 +148,8 @@ layers:
   - BT 4
   - BT 5
   - BT 5
-  - BT 4
-  - BT 3
+  - VOLUME DOWN
+  - VOLUME DOWN
   - BT 2
   - BT 1
   - BT CLR
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
-  - ''
-  - {type: held}
-  - ''
   - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
