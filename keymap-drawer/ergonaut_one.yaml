@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: ESCAPE, h: toggle}
+  - ESCAPE
   - '!'
   - '@'
   - '#'
@@ -149,7 +149,7 @@ layers:
   - BT 5
   - BT 5
   - VOLUME DOWN
-  - VOLUME DOWN
+  - VOLUME UP
   - BT 2
   - BT 1
   - BT CLR
