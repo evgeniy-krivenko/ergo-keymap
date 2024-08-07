@@ -37,10 +37,10 @@ layers:
   - /
   - '&td'
   - LEFT COMMAND
-  - {t: LEFT SHIFT, h: lower}
-  - {t: ⏎, h: lower}
-  - ␣
-  - {t: RSHIFT, h: raise}
+  - {t: ␣, h: lower}
+  - {t: ⏎, h: LEFT SHIFT}
+  - {t: ␣, h: RIGHT ALT}
+  - {t: ENTER, h: raise}
   - BACKSPACE
   lower:
   - ESCAPE
@@ -136,18 +136,18 @@ layers:
   - ''
   - ''
   - ''
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - ''
   - ''
   - Boot
   - BT CLR
   - BT 1
   - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
+  - ''
+  - ''
+  - ''
+  - ''
   - VOLUME DOWN
   - VOLUME UP
   - BT 2
