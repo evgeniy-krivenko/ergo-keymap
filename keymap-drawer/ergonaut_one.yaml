@@ -39,7 +39,7 @@ layers:
   - LEFT COMMAND
   - {t: ␣, h: lower}
   - {t: ⏎, h: LEFT SHIFT}
-  - {t: ␣, h: RIGHT ALT}
+  - ␣
   - {t: ENTER, h: raise}
   - BACKSPACE
   lower:
