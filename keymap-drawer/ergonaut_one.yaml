@@ -13,16 +13,16 @@ layers:
   - P
   - '['
   - LSHIFT
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT CONTROL}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT CONTROL}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
   - ''''
   - Ctrl
   - Z
