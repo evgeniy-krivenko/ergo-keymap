@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - LSHIFT
+  - ''
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -24,7 +24,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
   - ''''
-  - Ctrl
+  - ''
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - '&td'
-  - LEFT COMMAND
+  - ''
   - {t: ␣, h: lower}
   - {t: ⏎, h: LEFT SHIFT}
   - ␣
